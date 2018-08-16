@@ -1,0 +1,71 @@
+一、在终端下的一些基础命令：
+
+ 
+
+　　ls：list的缩写，列出当前路径下的文件和文件夹。
+
+　　cd：change directory，改变当前路径。例，改变当前路径到根目录下的home文件夹：cd /home/
+
+　　mkdir：make directory，创建文件夹。例，创建一个名为movie的文件夹：mkdir movie/
+
+　　rmdir：remove directory，删除文件夹。
+
+　　cp：copy，复制文件。
+
+　　rm：remove，移动文件，可通过此命令修改文件名。
+
+　　tar cvf：打包文件。例，创建一个名为film.tar.gz的打包文件：tar cvf film.tar.gz
+
+　　tar xf：解压文件。例，解压一个名为film.tar.gz的文件：tar xf film.tar/gz
+
+　　cat：显示文档里面的代码。
+
+ 
+
+二、安装软件：
+
+ 
+
+　　yum安装：下载rpm包，在终端输入yum 文件名.rpm即可。
+
+　　源码安装：下载 xx.tar.gz，先解压，然后进入解压后的路径，输入./configure，输入make，输入make install即可。
+
+ 
+
+三、挂载设备：
+
+ 
+
+　　fdisk -l：查看分区信息。
+
+　　在自动挂载的情况下，可用mount命令，查看挂载路径。
+
+　　在未自动挂载的情况下，可用mount+分区+目录，手动挂载。
+
+　　umount+目录，弹出设备。
+
+ 
+
+四、编写C程序：
+
+ 
+
+　　1、vim file.c　　（创建c文件）
+
+　　2、按i键，开始编辑
+
+　　3、按esc键，然后输入“：wq”（退出保存）。（退出不保存为“：q!”）
+
+　　4、gcc file.c -o file　　（编译）
+
+　　5、./flie　　（执行）
+
+ 
+
+五、关于网络：
+
+　　ifconfig -a：查看网络配置等信息。
+
+ 
+
+
